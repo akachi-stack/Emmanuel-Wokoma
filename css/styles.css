@@ -1254,3 +1254,10 @@ button.btn:hover{
 @media (max-width: 768px){ .gist-card{ flex:0 0 50%; } .gist-card img{ height:140px; } }
 @media (max-width: 480px){ .gist-card{ flex:0 0 100%; } .gist-card img{ height:200px; } .cokar-gist{ padding:40px 4% 60px; } }
 }
+
+#imgage-section{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 40px 8% 60px;
+}
